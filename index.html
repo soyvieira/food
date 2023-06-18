@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Single Page Application</title>
+</head>
+<body>
+  <!-- Top Section  -->
+  <div class="top">
+    <div>
+      <a href="#">
+        <img src="images/logo-horizontal-black.png"  class="logo" alt="Food">
+      </a>
+    </div>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+    </nav>
+  </div>
+  
+  <main>
+    <!-- Slider Section-->
+    <section class="slider" id="home">
+      <div>
+        <h1>Welcome</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque exercitationem tempore, cupiditate perferendis maxime, quod doloribus temporibus quia quo perspiciatis.
+        </p>
+        <a href="#portfolio">
+          <button class="call-to-action">
+            See the portfolio 
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section-->
+    <section class="about" id="about">
+      <div class="colum-1">
+        <h2>About</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos at rem quos temporibus optio molestiae non vel sequi molestias, animi dolorum omnis perferendis dolores voluptates incidunt veritatis tempora ipsum officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, ratione! <br> Tempore dolores ratione sit repudiandae voluptates sunt rem, hic excepturi in sed, nesciunt temporibus provident quis minus dolorem corrupti alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus commodi sapiente quasi veniam sint nisi magnam similique, quo possimus, voluptates, consequatur optio? Impedit quos tempora ipsa modi laboriosam praesentium voluptate.
+        </p>
+      </div>
+      <img src="images/about.jpg" alt="Image">
+    </section>
+    
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <h2>Portfolio</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Necessitatibus debitis error modi vero soluta id ullam corrupti inventore a numquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Necessitatibus debitis error modi vero soluta id ullam corrupti inventore a numquam. Lorem ipsum dolor sit, amet. <br>Necessitatibus debitis error modi vero soluta id ullam corrupti inventore a numquam. 
+      </p>
+      <div class="portfolio-list">
+        <img src="images/portfolio-1.jpg" alt="Image portfolio 1">
+        <img src="images/portfolio-2.jpg" alt="Image portfolio 2">
+        <img src="images/portfolio-3.jpg" alt="Image portfolio 3">
+      </div>
+
+      <div class="portfolio-list list-two">
+        <img src="images/portfolio-4.jpg" alt="Image portfolio 4">
+        <img src="images/portfolio-5.jpg" alt="Image portfolio 5">
+        <img src="images/portfolio-6.jpg" alt="Image portfolio 6">
+      </div>
+      <button class="action">
+        See all
+      </button>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+      <h2>FAQ</h2>
+      <h3>Frequently asked questions</h3>
+      <details class="questions" open>
+        <summary>Example question one, example question one. Example question one, example question one. </summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ut, accusamus qui quas corrupti quisquam laboriosam porro asperiores odit enim pariatur nam aspernatur libero illo itaque, eveniet quasi doloremque accusantium!</p>
+      </details>
+      <details class="questions">
+        <summary>Example question two, example question two. Example question two, example question two. </summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ut, accusamus qui quas corrupti quisquam laboriosam porro asperiores odit enim pariatur nam aspernatur libero illo itaque, eveniet quasi doloremque accusantium!</p>
+      </details>
+      <details class="questions">
+        <summary>Example question three, example question three. Example question three, example question three. </summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ut, accusamus qui quas corrupti quisquam laboriosam porro asperiores odit enim pariatur nam aspernatur libero illo itaque, eveniet quasi doloremque accusantium!</p>
+      </details>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="form">
+        <h2>Contact us</h2>
+        <form action="#">
+          <label for="name" class="label-style">Name </label>
+          <input type="text" id="name" name="name" placeholder="Your name" required >
+          <label for="email" class="label-style">Email </label>
+          <input type="email" id="email" name="email" placeholder="Your email" required >
+          <label for="phone" class="label-style">Your phone</label>
+          <input type="text" id="phone" name="phone" placeholder="Your phone" required >
+          <label for="message" class="label-style">Message</label>
+          <textarea id="message" name="message" required >Your message here</textarea>
+          <button class="send-message">
+            Send
+          </button>
+        </form>
+      </div>
+      <div class="maps">
+        <h2 class="title-maps">Our office</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, dignissimos atque vero consectetur quis eum nulla. </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58865.64929347409!2d-41.95956373625033!3d-22.761555515272907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96555567e32337%3A0x40218e7a6ff28786!2zQXJtYcOnw6NvIGRvcyBCw7p6aW9zLCBCw7p6aW9zIC0gUko!5e0!3m2!1spt-BR!2sbr!4v1686859870066!5m2!1spt-BR!2sbr" class="google-map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
+  <footer>
+      <a href="#home">
+        <img src="images/logo-footer-white.png" alt="Logo on footer">
+      </a>
+    <p>All rights reserved ® </p>
+  </footer>
+</body>
+</html>
